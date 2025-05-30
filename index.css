@@ -1,9 +1,16 @@
 .container {
   border: 5px solid #ffcc5c;
   display: flex;
-  justify-content: flex-end;
 }
 
-.home {
-  margin-right: auto;
+.container>.home,
+.container>.logout {
+  flex: 1;
+
+
+  /*flex-grow, flex-shrink, flex-basis */
+}
+
+.container>.search {
+  width: 200px;
 }
