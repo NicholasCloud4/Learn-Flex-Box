@@ -1,13 +1,8 @@
 .container {
   border: 5px solid #ffcc5c;
   display: flex;
-  flex-wrap: wrap;
 }
 
-.home {
-  flex: 1;
-}
-
-.logout {
-  flex: 1;
+.item2 {
+  order: 1;
 }
