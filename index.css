@@ -1,16 +1,14 @@
 .container {
   border: 5px solid #ffcc5c;
   display: flex;
+  height: 100%;
+  align-items: center;
 }
 
-.container>.home,
-.container>.logout {
-  flex: 1;
-
-
-  /*flex-grow, flex-shrink, flex-basis */
+.logout {
+  align-self: flex-start;
 }
 
-.container>.search {
-  width: 200px;
+.home {
+  align-self: flex-end;
 }
